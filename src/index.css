@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+  background-color: #f9fafc;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+p {
+  line-height: 2;
+  font-size: 0.9rem;
+  margin-bottom: 2em;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.query {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.paragraph-label {
+  text-transform: capitalize;
+}
+
+.paragraph-input {
+  max-width: 60px;
+  padding: 0.5em;
+  background-color: #cbd5e1;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.gen-btn {
+  background-color: #d9534f;
+  font-family: inherit;
+  border: none;
+  padding: 0.7em;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gen-btn:hover {
+  background-color: #cc3300;
+}
